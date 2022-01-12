@@ -1,0 +1,15 @@
+.nav-item>a {
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.nav-item>a>i {
+    padding-left: 5px;
+}
+
+a>span {
+    padding: 5px;
+    padding-left: 0px;
+}
+
+@
