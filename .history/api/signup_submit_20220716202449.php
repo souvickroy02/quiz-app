@@ -5,7 +5,7 @@ $full_name = $_POST['full_name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$password = sha1($password);
+$password = sha1($password)
 $gender = $_POST['gender'];
 
 $sql = "SELECT * FROM Users WHERE email='$email'";
