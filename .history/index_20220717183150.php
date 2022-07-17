@@ -40,7 +40,7 @@ session_start();
             <div class="container pt-5 mb-5">
                 <div class="row row-cols-1 row-cols-md-2">
                     <div class="col" style="cursor:pointer;">
-                        <div class="card mb-5" onclick="alert('Please Login First')">
+                        <div class="card mb-5" onclick="location.href='sport_quiz.php'">
                             <img src="img/sports.png" class="card-img-top" alt="...">
                             <!-- <div class="card-body bg-primary">
                             <a href="#" style="text-decoration: none;">

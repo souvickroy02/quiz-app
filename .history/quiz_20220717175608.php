@@ -31,8 +31,11 @@
 <body>
     <?php
     session_start();
+    ?>
+    <?php
     include "includes/header.php";
-    ?> 
+    ?>
+ 
     <?php
     require("includes/database_connect.php");
 

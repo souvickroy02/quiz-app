@@ -40,7 +40,7 @@
                         Hi, <?php echo $_SESSION["full_name"] ?>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="">
                             <i class="fas fa-user"></i>Dashboard
                         </a>
                     </li>

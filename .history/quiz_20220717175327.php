@@ -30,10 +30,13 @@
 
 <body>
     <?php
-    session_start();
     include "includes/header.php";
-    ?> 
+    ?>
+    <div class='nav-name'>
+        Hi, <?php echo $_SESSION["full_name"] ?>
+    </div>
     <?php
+    session_start();
     require("includes/database_connect.php");
 
     $sql = "select MAX(numb) as m_numb from q_and_a";

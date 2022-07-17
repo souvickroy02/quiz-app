@@ -30,13 +30,12 @@
 
 <body>
     <?php
-    session_start();
     include "includes/header.php";
-    ?> 
+    ?>
     <?php
     require("includes/database_connect.php");
 
-    $sql = "select MAX(numb) as m_numb from q_and_a";
+    $sql = "select MAX(numb) as m_numb from sport_q_and_a";
     $result = mysqli_query($conn, $sql);
 
     if (!$result) {
@@ -56,9 +55,9 @@
     $a_arr = array();
     $o_arr = array();
     foreach ($nonrepeatarray as $val) {
-        $q_sql = "select question from q_and_a where numb='$val'";
-        $a_sql = "select answer from q_and_a where numb='$val'";
-        $o_sql = "select options from q_and_a where numb='$val'";
+        $q_sql = "select question from sport_q_and_a where numb='$val'";
+        $a_sql = "select answer from sport_q_and_a where numb='$val'";
+        $o_sql = "select options from sport_q_and_a where numb='$val'";
         $q_result = mysqli_query($conn, $q_sql);
         $a_result = mysqli_query($conn, $a_sql);
         $o_result = mysqli_query($conn, $o_sql);

@@ -29,11 +29,13 @@
 </head>
 
 <body>
+    <?php>
+    <?php
+    include "includes/header.php";
+    ?>
+    
     <?php
     session_start();
-    include "includes/header.php";
-    ?> 
-    <?php
     require("includes/database_connect.php");
 
     $sql = "select MAX(numb) as m_numb from q_and_a";

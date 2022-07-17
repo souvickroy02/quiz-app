@@ -30,13 +30,13 @@
 
 <body>
     <?php
-    session_start();
     include "includes/header.php";
-    ?> 
+    ?>
     <?php
+    session_start();
     require("includes/database_connect.php");
 
-    $sql = "select MAX(numb) as m_numb from q_and_a";
+    $sql = "select MAX(numb) as m_numb from Sq_and_a";
     $result = mysqli_query($conn, $sql);
 
     if (!$result) {

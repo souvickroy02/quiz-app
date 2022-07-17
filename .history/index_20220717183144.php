@@ -35,49 +35,8 @@ session_start();
             </div>
         </div>
 
-        <!-- Card -->
-        <div class="body-container">
-            <div class="container pt-5 mb-5">
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col" style="cursor:pointer;">
-                        <div class="card mb-5" onclick="alert('Please Login First')">
-                            <img src="img/sports.png" class="card-img-top" alt="...">
-                            <!-- <div class="card-body bg-primary">
-                            <a href="#" style="text-decoration: none;">
-                                <h5 class="card-title text-center">Sports</h5>
-                            </a>
-                        </div> -->
-                        </div>
-                    </div>
-                    <div class="col" style="cursor:pointer;">
-                        <div class="card mb-5">
-                            <img src="img/entertainment.png" class="card-img-top" alt="...">
-                            <!-- <div class="card-body bg-primary">
-                            <a href="#" style="text-decoration: none;">
-                                <h5 class="card-title text-center">Entertainment</h5>
-                            </a>
-                        </div> -->
-                        </div>
-                    </div>
-                    <div class="col" style="cursor:pointer;">
-                        <div class="card mb-5">
-                            <img src="img/tech.png" class="card-img-top" alt="...">
-                            <!-- <div class="card-body bg-primary">
-                            <a href="#" style="text-decoration: none;">
-                                <h5 class="card-title text-center">Science and Tech</h5>
-                            </a>
-                        </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- footer -->
-            <?php
-            include "includes/footer.php";
-            ?>
-        </div>
-
+        
     <?php
     } else {
     ?>
